@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Locomotive Scroll CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.css">
+
+    <style>
+        /* Enable smooth scrolling */
+        html,
+        body {
+            scroll-behavior: smooth;
+            overflow: hidden;
+            /* Hide scrollbar */
+        }
+
+        /* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Locomotive Scroll Container -->
+    <div data-scroll-container>
+
+        <nav class="navbar" data-scroll>
+            <div class="nav-left">
+                <img src="photo_2025-02-27_14-27-42.jpg" alt="Logo" class="logo">
+                <span class="brand-text">MyNotes</span>
+            </div>
+            <!-- <button class="dark-mode-btn">Dark</button> -->
+        </nav>
+
+        <section class="content-section" data-scroll>
+            <div class="content-box">
+                <div class="left-section">
+                    <p>GGs For Exam.</p>
+                </div>
+                <div class="right-section">
+                    <p>Chill out, you will crack it, All the Bestッ.</p>
+                </div>
+            </div>
+        </section>
+        <section class="scrolling-keywords" data-scroll>
+            <div class="keywords-wrapper">
+                <div class="keywords">
+                    <span> Coding</span>
+                    <span>Exams</span>
+                    <span>Deadlines</span>
+                    <span>Caffine</span>
+                    <span>Projects</span>
+                    <span>Sleep Deprivation</span>
+                    <span> </span>
+                </div>
+                <div class="keywords">
+                    <span> Coding</span>
+                    <span>Exams</span>
+                    <span>Deadlines</span>
+                    <span>Caffine</span>
+                    <span>Projects</span>
+                    <span>Sleep Deprivation</span>
+                    <span> </span>
+                </div>
+                <div class="keywords">
+                    <span> Coding</span>
+                    <span>Exams</span>
+                    <span>Deadlines</span>
+                    <span>Caffine</span>
+                    <span>Projects</span>
+                    <span>Sleep Deprivation</span>
+                    <span> </span>
+                </div>
+                <div class="keywords">
+                    <span> Coding</span>
+                    <span>Exams</span>
+                    <span>Deadlines</span>
+                    <span>Caffine</span>
+                    <span>Projects</span>
+                    <span>Sleep Deprivation</span>
+                    <span> </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-section" data-scroll>
+            <div class="grid-container">
+                <div class="grid-box">
+
+                    <div class="overlay-box">
+                        <img src="OS.jpg" alt="" class="box-image">
+                        <!-- <img src="OS.jpg" alt="Overlay Image" class="overlay-img"> -->
+                    </div>
+                    <h3 class="name">Notes</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/17wDA11Ij_SQmUvqM9f9P2__wgtmyA_Nq?usp=drive_link', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists <span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                       <img src="https://www.pynetlabs.com/wp-content/uploads/2023/06/Computer-Network-Components.jpeg" alt="" class="box-image">
+                    </div>
+                    
+                    <h3>Box 2(CN)</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1x5PdtY8USEqcPO6nhS0LmhfLqd0412vq?usp=drive_link', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists <span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="intro-data-structure-–-1.png" alt="" class="box-image">
+                    </div>
+                    <h3>Box 3(DSA)</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/14UdMCwd_MlhnBlxPj05Tsig0dcoyv-uA?usp=drive_link', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="https://webandcrafts.com/_next/image?url=https%3A%2F%2Fadmin.wac.co%2Fuploads%2FFeatures_Of_Python_1_f4ccd6d9f7.jpg&w=4500&q=90" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1eD06h-u2hmJ7NTWJjXGSaQ2CGDvde5UH?usp=drive_link', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="https://www.jellyfishtechnologies.io/wp-content/uploads/2021/10/Artificial-Intelligence-versus-Machine-Learning.png" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1YW4e78duclBYHP7FJfxqC1vAMHagm84C?usp=sharing', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="https://media.licdn.com/dms/image/D5612AQGLETQPCUSz2A/article-cover_image-shrink_600_2000/0/1715245693511?e=2147483647&v=beta&t=Ko4TO5Q_7qH5i76ZGFfpZL0iFIFtR4GLGdGGWzKz988" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1c-BfdXuw1J0W8xr6d-ryYZ7cCZpEr7yx?usp=sharing', '_blank')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="cc.jpg" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/19j_oB_eMBLTzYQ1IkjWMAHwt_RKASC8i?usp=sharing')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src="TOC.jpg" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1zhcAmbHU1273td52x75l2JiwF5nO9uJo?usp=sharing')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+                <div class="grid-box">
+                    <div class="overlay-box">
+                        <img src= "images.jpg" alt="" class="box-image">
+                    </div>
+                    <h3>Box 4</h3>
+                    <button class="grid-btn" onclick="window.open('https://drive.google.com/drive/folders/1eHUNVZg2_tVfbr6Q-0dj3QoIeucWQE59?usp=sharing')">
+                        Notes/PPTs <span class="icon">→</span>
+                    </button>
+                    <button class="grid-btn">YT Playlists<span class="icon">→</span></button>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <footer class="custom-footer">
+            <h2>Now go outside, get some fresh air!!</h2>
+        </footer>
+
+    </div>
+    </section>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+<script>
+    // Initialize Locomotive Scroll
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+    });
+</script>
+
+
+       
+</body>
+
+</html>
