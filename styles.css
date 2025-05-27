@@ -315,6 +315,7 @@ body {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+        margin-right: 25px;
     }
 
     .grid-box {
@@ -322,16 +323,17 @@ body {
         max-width: 300px;
         height: auto;
         margin: auto;
+        margin-right: 5px;
     }
 
     .content-section {
         flex-direction: column;
-        height: auto;
+        height: 50vw;
         padding: 20px;
     }
 
     .left-section, .right-section {
-        font-size: 24px;
+        font-size: 6vw;
         justify-content: center;
         text-align: center;
         padding: 10px;
